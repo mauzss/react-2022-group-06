@@ -2,7 +2,10 @@ import React from 'react';
 
 const Group = () => {
   return (
-    <div>Group</div>
+    <div>
+      <h1>GROUP</h1>
+      <p>Lorem impsum</p>
+    </div>
   )
 }
 
