@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
-import { data } from '../../Data/NavbarData';
 
 //Styled Navbar
 import './NavbarStyle.css';
