@@ -1,0 +1,13 @@
+.contact{
+  padding: 4rem;
+  padding-top: 16rem;
+}
+
+.contact h1{
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.contact p{
+  font-size: 1.8rem;
+}

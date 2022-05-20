@@ -1,17 +1,16 @@
 import React from 'react';
+import "./MenberStyle.css";
 
 const Members = ( {memberIndex, data}) => {
   return (
-    <div>
-      
+    <React.Fragment>
         {data[memberIndex].map(item =>(
           <div className='member'>
-            <p>{item.title}</p>
-            <p>{item.nombre} {item.apellido}</p>
-            <p>{item.text}</p>
+            <p className='menber__name'>{item.nombre} {item.apellido}</p>
+            <p className='menber__text'>{item.text}</p>
           </div>
         ))}      
-    </div>
+    </React.Fragment>
   )
 }
 

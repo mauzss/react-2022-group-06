@@ -8,17 +8,16 @@ const Navbar = () => {
   let navigate = useNavigate();
   let location = useLocation();
 
-
   const handleClick = () => {
     navigate("/Home");
   }
 
   return (
     <div>
-      <nav>
-        <Link to="/"> Home </Link>
-        <Link to="/group"> Group </Link>
-        <Link to="/contact"> Contact </Link>
+      <nav className="nav">
+        <Link className="nav__link" to="/"> Home </Link>
+        <Link className="nav__link" to="/group"> Group </Link>
+        <Link className="nav__link" to="/contact"> Contact </Link>
       </nav>
     </div>
   )

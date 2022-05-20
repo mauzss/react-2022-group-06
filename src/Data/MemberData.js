@@ -13,10 +13,10 @@ export const MemberData = [
 	[
 		{
 			title: 'Member 02',
-			nombre: 'about',
-			apellido: 'about',
+			nombre: 'Hernan Alex',
+			apellido: 'Choque Condori',
 			apodo: 'about',
-			text: 'About',
+			text: 'Soy desarrollador Front-end, utilizo Html, Css, Javascript y un poco de React. Estudio en la universidad la carrera de ingenieria en sistemas. Aun no tengo experiencia laboral',
 			mail: 'about',
 			github: '',
 		}
