@@ -4,11 +4,11 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 //Styled Hero
-import './Hero';
+import './HeroStyle.css';
 
 const Hero = () => {
 	return (
-		<Carousel variant="dark">
+		<Carousel variant="dark" className='margin'>
 			<Carousel.Item>
 				<img
 					className="d-block w-100"
@@ -19,10 +19,10 @@ const Hero = () => {
 				/>
 				<Carousel.Caption>
 					<h5>React dev</h5>
-					<p>
+					<h6>
 						Creacion de paginas web en react asi como tambien programas
-						empresariales.
-					</p>
+						empresariales
+					</h6>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
@@ -35,9 +35,7 @@ const Hero = () => {
 				/>
 				<Carousel.Caption>
 					<h5>Base de datos relacionales</h5>
-					<p className="shadowWhite">
-						Analisis y gestion de base de datos relacionales.
-					</p>
+					<h6>Analisis y gestion de base de datos relacionales.</h6>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
@@ -49,25 +47,21 @@ const Hero = () => {
 					height="400"
 				/>
 				<Carousel.Caption>
-					<h5>Firebase</h5>
-					<p>
-						Gestion de base de datos NoSql con firebase
-					</p>
+					<h5>Base de datos relacionales</h5>
+					<h6>Gestion de base de datos NoSql con firebase</h6>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img
 					className="d-block w-100"
-					src="mongodb.jpg"
+					src="mongodb.png"
 					alt="Third slide"
 					width="1400"
 					height="400"
 				/>
 				<Carousel.Caption>
 					<h5>MongoDB</h5>
-					<p>
-						Gestion de base de datos NoSql con MongoDB
-					</p>
+					<h6>Gestion de base de datos NoSql con MongoDB</h6>
 				</Carousel.Caption>
 			</Carousel.Item>
 		</Carousel>
