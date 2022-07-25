@@ -10,7 +10,7 @@ export const MemberData = [
 			github: 'https://github.com/mauzss',
 			img: 'Martinez.jpg',
 			instagram: 'https://www.instagram.com/gabrielmartinezss/',
-			linkedin:'www.linkedin.com/in/marcos-g-martinez',
+			linkedin:'https://www.linkedin.com/in/marcos-g-martinez',
 		}
 	],
 	[

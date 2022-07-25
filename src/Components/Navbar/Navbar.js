@@ -32,7 +32,7 @@ const Navbar = () => {
 								<Nav.Link>Group</Nav.Link>
 							</LinkContainer>
 							<LinkContainer to="/contact">
-								<Nav.Link>Contact</Nav.Link>
+								<Nav.Link>Contact & Info</Nav.Link>
 							</LinkContainer>
 							<LinkContainer to="/signup">
 								<Nav.Link>Test Login</Nav.Link>

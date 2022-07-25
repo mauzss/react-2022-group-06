@@ -28,7 +28,6 @@ const SignupPage = () => {
 		setUser(currentUser);
 	});
 
-
 	//---------------------------------
 	//REGISTRAR a un usuario
 	//---------------------------------
@@ -69,12 +68,12 @@ const SignupPage = () => {
 	};
 
 	return (
-		<div>
+		<div className="center">
 			<Container>
 				<br />
 				<Row>
-					<Col md={{ span: 6, offset: 3 }}>
-						<Card style={{ width: '50rem' }}>
+					<Col>
+						<Card>
 							<Card.Body>
 								<Card.Title>SignUp - Crear usuario</Card.Title>
 
@@ -82,6 +81,7 @@ const SignupPage = () => {
 									<Col>
 										<h6>Email address: </h6>
 										<input
+											className="inputCard"
 											type="email"
 											placeholder="Enter email"
 											onChange={(event) => {
@@ -95,6 +95,7 @@ const SignupPage = () => {
 									<Col>
 										<h6>Password:</h6>
 										<input
+											className="inputCard"
 											type="password"
 											placeholder="Password"
 											onChange={(event) => {
@@ -112,8 +113,8 @@ const SignupPage = () => {
 				</Row>
 				<br />
 				<Row>
-					<Col md={{ span: 6, offset: 3 }}>
-						<Card style={{ width: '50rem' }}>
+					<Col>
+						<Card>
 							<Card.Body>
 								<Card.Title>Login</Card.Title>
 
@@ -121,6 +122,7 @@ const SignupPage = () => {
 									<Col>
 										<h6>Email address</h6>
 										<input
+											className="inputCard"
 											type="email"
 											placeholder="Enter email"
 											onChange={(event) => {
@@ -134,6 +136,7 @@ const SignupPage = () => {
 									<Col>
 										<h6>Password</h6>
 										<input
+											className="inputCard"
 											type="password"
 											placeholder="Password"
 											onChange={(event) => {
@@ -151,8 +154,8 @@ const SignupPage = () => {
 				</Row>
 				<br />
 				<Row>
-					<Col md={{ span: 6, offset: 3 }}>
-						<Card style={{ width: '50rem' }}>
+					<Col>
+						<Card>
 							<Card.Body>
 								<Card.Title>User - Logout</Card.Title>
 								<Row>
