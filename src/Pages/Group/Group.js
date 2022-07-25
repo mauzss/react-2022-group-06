@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 //Styled
 import './GroupStyle.css';
+import Button from 'react-bootstrap/Button';
 
 //pages
 import Members from './Members';
@@ -15,15 +16,13 @@ const Group = () => {
 
   return (
     <div>
-      
-      <h1>GROUP</h1>
-      <p>Lorem impsum</p>
-      <nav>
-        <button onClick={ () => setActive('FirstMember') }>Member 01</button>
-        <button onClick={ () => setActive('SecondMember') }>Member 02</button>
-        <button onClick={ () => setActive('ThirdMember') }>Member 03</button>
-        <button onClick={ () => setActive('FourthMember') }>Member 04</button>
-        <button onClick={ () => setActive('FifthMember') }>Member 05</button>
+
+      <nav className='menu'>
+        <Button variant="primary" onClick={ () => setActive('FirstMember') }>Member 01</Button>{' '}
+        <Button variant="primary" onClick={ () => setActive('SecondMember') }>Member 02</Button>{' '}
+        <Button variant="primary" onClick={ () => setActive('ThirdMember') }>Member 03</Button>{' '}
+        <Button variant="primary" onClick={ () => setActive('FourthMember') }>Member 04</Button>{' '}
+        <Button variant="primary" onClick={ () => setActive('FifthMember') }>Member 05</Button>{' '}
       </nav>
       <div>
         {active === 'FirstMember'  &&  <Members data={MemberData} memberIndex={0} /> }

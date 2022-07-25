@@ -23,11 +23,11 @@ const SignupPage = () => {
 	//---------------------------------
 	//OBTENER USUARIO CON SESION INICIADA
 	//---------------------------------
-	/*const [user, setUser] = useState({});
+	const [user, setUser] = useState({});
 	onAuthStateChanged(auth, (currentUser) => {
 		setUser(currentUser);
-	});*/
-	const user = auth.currentUser;
+	});
+
 
 	//---------------------------------
 	//REGISTRAR a un usuario
@@ -158,7 +158,7 @@ const SignupPage = () => {
 								<Row>
 									<Col>
 										<h6>User logged In:</h6>
-										{user !== null ? user.email : ''}
+										{user !== null ? user?.email : ''}
 									</Col>
 									<Col>
 										<Button
