@@ -72,7 +72,7 @@ const Proyectos = () => {
 									Calculadora de Area de un circulo y un triangulo reactangulo
 								</Card.Text>
 								<Card.Link href="https://desafios-martinez-marcos-gabriel.netlify.app/desafio2.html">
-									Link Portfolio CSS
+									Link Calculadora Area
 								</Card.Link>
 							</Card.Body>
 						</Card>
