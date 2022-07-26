@@ -5,53 +5,68 @@ export const MemberData = [
 			nombre: 'Marcos Gabriel',
 			apellido: 'Martinez',
 			apodo: 'Mauzss',
-			text: 'Soy Desarrollador Back-end, trabaje muchos anios como desarrollador php y como analistas en base de datos relacionales como Oracle, Microsoft Server, MySql, entre otras.',
+			text: 'Soy Desarrollador Back-end, trabaje muchos años como desarrollador php y como analistas en base de datos relacionales como Oracle, Microsoft Server, MySql, entre otras.',
 			mail: 'Gabriel_martinez_2409@hotmail.es',
 			github: 'https://github.com/mauzss',
+			img: 'Martinez.jpg',
+			instagram: 'https://www.instagram.com/gabrielmartinezss/',
+			linkedin:'https://www.linkedin.com/in/marcos-g-martinez',
 		}
 	],
 	[
 		{
 			title: 'Member 02',
-			nombre: 'Hernan Alex',
-			apellido: 'Choque Condori',
+			nombre: 'Federico',
+			apellido: 'Segura',
 			apodo: 'about',
-			text: 'Soy desarrollador Front-end, utilizo Html, Css, Javascript y un poco de React. Estudio en la universidad la carrera de ingenieria en sistemas. Aun no tengo experiencia laboral',
+			text: 'Soy ingeniero industrial, Magister en Data Science. Tengo una empresa de Data Science y BI donde soy CO Founder. Además soy CDO&CTO en resultadistas y Docente en Universidad Austral,  Digital House y Liceo Naval Almirante Brown',
 			mail: 'about',
-			github: '',
+			github: 'https://github.com/segurafedericoj',
+			img: 'FedericoSegura.jpg',
+			instagram: '',
+			linkedin:'https://www.linkedin.com/in/federico-josé-segura-44082655/',
 		}
 	],
 	[
 		{
 			title: 'Member 03',
-			nombre: 'about',
-			apellido: 'about',
+			nombre: '03 Soldado',
+			apellido: 'Caido',
 			apodo: 'about',
-			text: 'About',
+			text: 'Integrante que abondono la cursada',
 			mail: 'about',
 			github: '',
+			img: 'incognit.png',
+			instagram: '',
+			linkedin:'',
 		}
 	],
 	[
 		{
 			title: 'Member 04',
-			nombre: 'about',
-			apellido: 'about',
+			nombre: '04 Soldado',
+			apellido: 'Caido',
 			apodo: 'about',
-			text: 'About',
+			text: 'Integrante que abondono la cursada',
 			mail: 'about',
 			github: '',
+			img: 'incognit.png',
+			instagram: '',
+			linkedin:'',
 		}
 	],
 	[
 		{
 			title: 'Member 05',
-			nombre: 'about',
-			apellido: 'about',
+			nombre: '05 Soldado',
+			apellido: 'Caido',
 			apodo: 'about',
-			text: 'About',
+			text: 'Integrante que abondono la cursada',
 			mail: 'about',
 			github: '',
+			img: 'incognit.png',
+			instagram: '',
+			linkedin:'',
 		}
 	]
 ];

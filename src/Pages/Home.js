@@ -1,17 +1,16 @@
 import React from 'react';
 import "./HomeStyles.css"
 
+import Hero from '../Components/Hero/Hero';
+import Proyectos from '../Components/Proyectos/Proyectos';
+
 const Home = () => {
-  return (
-    <div className="presentation">
-      <h1 className="presentation__title">
-        Arma tu propio portafolio y consige el trabajo que siempre quisiste
-      </h1>
-      <p className="presentation__text">
-        Un trabajador con un buen portafolio tiene 50% mas posibilidades de ser contrato por una empresa, asi que empieza armando el tuyo y consigue lo quieres
-      </p>
-    </div>
-  )
-}
+	return (
+		<div>
+			<Hero />
+			<Proyectos />
+		</div>
+	);
+};
 
 export default Home;

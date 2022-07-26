@@ -1,52 +1,16 @@
-.group{
-    padding-top: 16rem;
+.member {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
 }
-.group__title{
-    font-size: 3.6rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-}
-.group__text{
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
 }
 
-.group__nav{
-    position: relative;
-    max-width: 80vw;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    
-    margin: 4rem auto;
-    margin-bottom: 8rem;
-}
-.group__nav button{
-    max-width: 15rem;
-    width: 100%;
-    height: 15rem;
-
-    font-size: 1.8rem;
-    font-weight: 400;
-
-    border: none;
-    outline: none;
-
-    border-radius: 100%;
-    transition-duration: 0.4s;
-}
-
-.group__nav button:hover{
-    background-color: #3a3a3a;
-    color: #ffffff;
-}
-.group__nav .btn-select{
-    background-color: #3a3a3a;
-    color: #ffffff;
-}
-
-.container-menber{
-    max-width: 80vw;
-    margin: 0 auto;
+.menu {
+	margin: auto;
+	width: 50%;
+	padding: 25px;
 }
