@@ -1,0 +1,17 @@
+.container-menber{
+  background-color: #3a3a3a; 
+}
+.member {
+  border: 1px solid black;
+  margin: 1rem 0;
+  padding: 4rem;
+  color: #ffffff;
+}
+.menber__name{
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.menber__text{
+  font-size: 1.6rem;
+}
+
